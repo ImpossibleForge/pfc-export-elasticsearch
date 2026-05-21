@@ -263,4 +263,4 @@ pfc-export-elasticsearch is an independent open-source project and is not affili
 
 pfc-export-elasticsearch (this repository) is released under the MIT License — see [LICENSE](LICENSE).
 
-The PFC-JSONL binary (`pfc_jsonl`) is proprietary software — free for personal and open-source use. Commercial use requires a license: [info@impossibleforge.com](mailto:info@impossibleforge.com)
+The PFC-JSONL binary (`pfc_jsonl`) is proprietary software — free for personal and open-source use. Commercial use requires a license — contact [info@impossibleforge.com](mailto:info@impossibleforge.com)
