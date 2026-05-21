@@ -54,6 +54,14 @@ curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pf
 # macOS Apple Silicon (M1–M4):
 curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-macos-arm64 \
      -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
+
+# macOS Intel (x64):
+curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-macos-x64 \
+     -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
+
+# Windows (x64) — PowerShell:
+Invoke-WebRequest -Uri https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-windows-x64.exe `
+    -OutFile "$env:LOCALAPPDATA\Microsoft\WindowsApps\pfc_jsonl.exe"
 ```
 
 Requires Elasticsearch **7.12+** and `elasticsearch-py` **7.12–8.x**.
